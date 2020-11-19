@@ -1,0 +1,10 @@
+utest/certificacion/userinterfaces/FormularioUtest.java
+ utest.certificacion.userinterfaces.FormularioUtest
+utest/certificacion/utils/drivers/MyChromeDriver.java
+ utest.certificacion.utils.drivers.MyChromeDriver
+utest/certificacion/task/RegistroUsuario.java
+ utest.certificacion.task.RegistroUsuario
+utest/certificacion/utils/constant/ConstantManage.java
+ utest.certificacion.utils.constant.ConstantManage
+utest/certificacion/userinterfaces/HomeUtest.java
+ utest.certificacion.userinterfaces.HomeUtest

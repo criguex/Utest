@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="utest.certificacion.runners.UtestRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-MVLU5O0" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/registro/Registro_usuario.feature:5 ?[0m# registrar usuario en Utest
+
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m1 passed?[0m)
+1m10,504s
+
+java.lang.NullPointerException
+	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1654)
+	at org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:760)
+	at net.thucydides.core.steps.StepFactory$ParameterAssignementChecker.cannotBeAssignedTo(StepFactory.java:332)
+	at net.thucydides.core.steps.StepFactory.parametersMatchFor(StepFactory.java:242)
+	at net.thucydides.core.steps.StepFactory.argumentTypesFrom(StepFactory.java:218)
+	at net.thucydides.core.steps.StepFactory.immutableStepLibrary(StepFactory.java:212)
+	at net.thucydides.core.steps.StepFactory.createProxyStepLibrary(StepFactory.java:203)
+	at net.thucydides.core.steps.StepFactory.instantiateUniqueStepLibraryFor(StepFactory.java:179)
+	at net.thucydides.core.steps.StepFactory.getUniqueStepLibraryFor(StepFactory.java:115)
+	at net.serenitybdd.screenplay.Tasks.instrumented(Tasks.java:12)
+	at net.serenitybdd.screenplay.actions.Click.on(Click.java:18)
+	at utest.certificacion.task.RegistroUsuario.performAs(RegistroUsuario.java:14)
+	at utest.certificacion.task.RegistroUsuario$$EnhancerByCGLIB$$c22da4d8.CGLIB$performAs$0(<generated>)
+	at utest.certificacion.task.RegistroUsuario$$EnhancerByCGLIB$$c22da4d8$$FastClassByCGLIB$$496510d2.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at utest.certificacion.task.RegistroUsuario$$EnhancerByCGLIB$$c22da4d8.performAs(<generated>)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:84)
+	at utest.certificacion.stepdefinitions.UtestStepDefinition.lleno_los_formularios(UtestStepDefinition.java:35)
+	at ?.lleno los formularios(src/test/resources/features/registro/Registro_usuario.feature:7)
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
